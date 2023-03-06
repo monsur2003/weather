@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <!-- style file is here -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="w-[100%] flex justify-center items-center">
+        <a class="w-32 h-8 pt-32 " href="https://www.freeiconspng.com/img/12876" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/cloud-icon-22.png" width="350" alt="Cloud Vector Free" /></a>
+       
+    </header>
+    <div class="flex flex-col gap-y-4 justify-center items-center mt-32 "> 
+      <div class="  flex justify-center items-center">
+        <input id="input" class=" px-2 text-[20px] rounded-l-lg w-72 py-3" type="text">
+        <button id="src-btn" class="rounded-r-lg bg-blue-500 text-[20x] font-bold px-5 py-4"> Search</button>
+      </div>
+        <h3 class="text-center text-3xl text-white font-bold" id="city-name">Dhaka</h3>
+        <h3 class="text-4xl text-white">
+            <span id="temp">30.08</span>&deg;C
+        </h3>
+        <h2 class="text-center text-2xl text-white " id="cloud"> Clouds</h2>
+    </div>
+
+    <!-- !Js file is here -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

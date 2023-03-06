@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(360deg, #6363f34f,#000000b4,#3636dd7a), url(../images/pexels-pixabay-33545.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
